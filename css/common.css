@@ -79,3 +79,58 @@ body {
   border-radius: 4px;
   border-color: #808080;
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.login-form label {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.login-form button {
+  padding: 8px 16px;
+
+  margin-top: 16px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: #4E75FF;
+  color: #FFFFFF;
+
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 160px;
+  margin: 0 auto;
+}
+
+.widget button {
+  padding: 8px 16px;
+
+  margin-top: 16px 10.5px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: #4E75FF;
+  color: #FFFFFF;
+
+}
