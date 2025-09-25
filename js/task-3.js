@@ -5,7 +5,7 @@ textInput.addEventListener("input", () => {
     const trimmedInput = textInput.value.trim();
 
     if (trimmedInput === "") {
-        output.textContent = "Anonymus";
+        output.textContent = "Anonymous";
     }
     else {
         output.textContent = trimmedInput;
